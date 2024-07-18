@@ -12,10 +12,15 @@ const getData = async () => {
 const PostList = async () => {
   const data: postData[] = await getData();
   return (
-    <div className="grid md:grid-cols-2">
+    <div className="w-full mb-8">
+      <div className="md:max-w-screen-xl w-[90%] mx-auto">
+
+    <div className="grid gap-8 xl:grid-cols-3 sm:grid-cols-2">
       {data.map((post) => (
         <PostCard key={post.id} {...post} />
       ))}
+    </div>
+    </div>
     </div>
   );
 };

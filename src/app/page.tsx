@@ -1,9 +1,11 @@
 import PostList from "./components/PostList";
+import TopNav from "./components/TopNav";
 
 export default function Home() {
   return (
-    <main className="">
-      <PostList/>
-      </main>
+    <>
+      <TopNav />
+      <PostList />
+    </>
   );
 }
