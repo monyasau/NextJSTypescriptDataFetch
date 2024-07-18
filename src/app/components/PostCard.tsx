@@ -1,6 +1,9 @@
-const PostCard=(props:{body:string;title:string})=> {
+import {postData} from "../types/types"
+
+const PostCard=(props:postData)=> {
     return (
-        <div>
+        <div className="border  mx-auto w-[80%]">
+            {props.id}
             {props.title}
             {props.body}
         </div>
