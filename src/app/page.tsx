@@ -1,53 +1,9 @@
-import Image from "next/image";
-import PostCard from "./components/PostCard";
+import PostList from "./components/PostList";
 
 export default function Home() {
   return (
     <main className="">
-    
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
-      <PostCard id={1} body={"dd"}/>
+      <PostList/>
       </main>
   );
 }
